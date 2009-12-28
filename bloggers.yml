@@ -1,0 +1,112 @@
+adehnert:
+  links:
+  - [Alex Dehnert's Blog, 'http://www.dehnert.arctic.org/~alex/meta/news/', 'http://www.dehnert.arctic.org/~alex/meta/news/?format=rss-full']
+  start: 12/21
+broder:
+  links:
+  - ["\u03B8: The nerd's angle", 'http://ebroder.net/', 'http://ebroder.net/feed/atom/']
+  start: 12/28
+cristen:
+  links:
+  - [cristenbc, 'http://www.cristenbc.com/', 'http://www.cristenbc.com/feeds/posts/default']
+  start: 12/21
+ezyang:
+  links:
+  - [Inside 245s, 'http://ezyang.scripts.mit.edu/blog/', 'http://ezyang.scripts.mit.edu/blog/feed/atom/']
+  start: 12/28
+fawkes:
+  links: []
+  start: 12/28
+fyrrwulf:
+  links:
+  - [Mad Engineering at its Finest, 'http://codydaniel.wordpress.com', 'http://codydaniel.wordpress.com/feed/']
+  start: 12/21
+geofft:
+  links:
+  - [syskblogd, 'http://geofft.mit.edu/blog/', 'http://geofft.mit.edu/blog/feed']
+  start: 12/21
+havasi:
+  links:
+  - [Common Sense Computing Initiative, 'http://csc.media.mit.edu/blog/havasi', 'http://csc.media.mit.edu/blog/1/feed']
+  start: 12/28
+ianyh:
+  links:
+  - [Bias and Sandwiches, 'http://lucien.mit.edu/blog/', 'http://lucien.mit.edu/blog/?feed=atom']
+  start: 12/21
+jhamrick:
+  links:
+  - [Artificial Awareness, 'http://jhamrick.mit.edu', 'http://jhamrick.mit.edu/feed/atom/']
+  start: 12/21
+kaduk:
+  links: []
+  start: 12/28
+kaia:
+  links: []
+  start: 12/28
+kasittig:
+  links:
+  - [Wuthering Snow Mooncrash, 'http://kasittig.scripts.mit.edu/blog/', 'http://kasittig.scripts.mit.edu/blog/?feed=rss2']
+  start: 12/21
+kcr:
+  links:
+  - [procrastination diagram, 'http://www.1ts.org/~kcr/', 'http://www.1ts.org/~kcr/index.rss']
+  start: 12/28
+kevinr:
+  links:
+  - [Free Dissociation, 'http://free-dissociation.com/blog/', 'http://free-dissociation.com/blog/atom.xml']
+  start: 12/21
+kyoki:
+  links: []
+  start: 12/28
+laura47:
+  links:
+  - [LAURA, 'http://lauraboylan.blogspot.com/', 'http://lauraboylan.blogspot.com/feeds/posts/default']
+  start: 12/21
+lexrj:
+  links: []
+  start: 12/28
+lizdenys:
+  links:
+  - [Playing with Negative Space, 'http://lizdenys.scripts.mit.edu/blog', 'http://lizdenys.scripts.mit.edu/blog/feed/']
+  start: 12/28
+nelhage:
+  links:
+  - [Made of Bugs, 'http://blog.nelhage.com', 'http://blog.nelhage.com/feed']
+  start: 12/21
+phurst:
+  links:
+  - [Amateur Topologist, 'http://www.amateurtopologist.com/', 'http://www.amateurtopologist.com/feed/']
+  start: 12/28
+price:
+  links:
+  - [Greg Price's Blog, 'http://price.mit.edu/blog', 'http://price.mit.edu/blog/feed/']
+  start: 12/21
+quentin:
+  links:
+  - [QLJ, 'http://coolerq.livejournal.com/', 'http://coolerq.livejournal.com/data/atom']
+  start: 12/21
+spang:
+  links:
+  - [blog.spang.cc, 'http://blog.spang.cc/', 'http://blog.spang.cc/index.atom']
+  start: 12/28
+tibbetts:
+  links:
+  - [Streambase, 'http://streambase.typepad.com/', 'http://streambase.typepad.com/streambase_stream_process/atom.xml']
+  - [Hyperextended Metaphor, 'http://innocuous.org/', 'http://innocuous.org/feed/']
+  start: 12/21
+vinayak:
+  links:
+  - [Storytime, 'http://pseudovirtualanecdotes.blogspot.com/', 'http://pseudovirtualanecdotes.blogspot.com/feeds/posts/default']
+  start: 12/28
+wings:
+  links:
+  - [PiPER, 'http://wings.scripts.mit.edu/blog/', 'http://wings.scripts.mit.edu/blog/feed/']
+  start: 12/21
+xavid:
+  links:
+  - [Fireflies Sing, 'http://fireflies.xavid.us/', 'http://fireflies.xavid.us/feed/atom/']
+  start: 12/28
+zhangc:
+  links:
+  - [Somatic Hypermutation, 'http://zhangc.scripts.mit.edu/~zhangc/shm/', 'http://zhangc.scripts.mit.edu/~zhangc/shm/feed/']
+  start: 12/21
