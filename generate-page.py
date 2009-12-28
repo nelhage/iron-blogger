@@ -20,5 +20,5 @@ def user_key(u):
 
 all.sort(key=user_key)
 
-tmpl = Template(filename='iron-blogger.tmpl', output_encoding='utf-8')
+tmpl = Template(filename='templates/iron-blogger.tmpl', output_encoding='utf-8')
 print tmpl.render(users=all)
