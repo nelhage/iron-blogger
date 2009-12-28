@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html 
+     PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <title>Iron Blogger (for Beer)</title>
+      <style type="text/css">
+        #footnotes {
+        font-size: 80%;
+        }
+        #content {
+          width: 40em;
+          margin: auto;
+          border: 1px solid black;
+          padding: 1em;
+        }
+        #participants {
+          margin: auto;
+        }
+
+        h1,h2 {
+          text-align: center;
+          width: 100%;
+          margin-bottom: 1ex;
+        }
+
+        .subtitle {
+          font-size: 100%;
+        }
+      </style>
+
+  </head>
+  <body>
+    <div id='content'>
+      <h1>Iron Blogger</h1>
+      <h1 class='subtitle'>(With a beer money pool)</h1>
+
+      <h1>The Rules</h1>
+      <ol>
+        <li>
+          At least one blog post a week. Weeks will be defined as
+          starting and ending Monday morning at 0600.
+        </li>
+        <li>
+          You're welcome to post more than once in any given week, but
+          it doesn't count for the next week.
+        </li>
+        <li>
+          If you miss a post, you owe the beer pool $5. I can keep
+          track of this, or we can throw together a google docs
+          spreadsheet or something.
+        </li>
+        <li>
+          Roughly once a month, we go out for beer<a
+          href="#f1"><sup>1</sup></a>. Beer is funded by the beer pool,
+          and we split the rest of the cost.
+        </li>
+        <li>
+          You're allowed to blog about this event as your first post.
+        </li>
+        <li>
+          Week one started today (Dec 21), so you have until the start
+          of the 28th to make your first post. Since you get a freebie,
+          this should be easy.
+        </li>
+        <li>
+          However, since you may already have plans for the week of
+          Christmas, you may take a free skip for the first week by
+          letting me know soon after you tell me you want to join.
+        </li>
+        <li>
+          Any topic or length of blog post is acceptable. If it's
+          obviously filler, we may laugh at you, but it still
+          counts.
+        </li>
+        <li>
+          These rules are open for discussion, but I reserve the right
+          to make an arbitrary decision and declare it official if
+          anyone starts wanking.
+        </li>
+        <li>
+          You're allowed to punt at any time by notifying me before
+          the end of the week in which you are punting. You can't
+          retroactively punt.
+        </li>
+        <li>
+          There is no set end date. The event may be ended by group
+          agreement.
+        </li>
+        <li>
+          Anyone may join up until the end of the first full week
+          (0600 on Monday, January 4). After that point the list is
+          closed, although occasional exceptions may be
+          possible. Email Nelson Elhage (<tt>nelhage@mit.edu</tt>) to
+          join.
+        </li>
+      </ol>
+
+      <h1>Participants</h1>
+
+      <table id='participants'>
+        <tr>
+          <th>Who</th>
+          <th style='width: 10em'>Blog link</th>
+          <th>Start Week</th>
+        </tr>
+% for u in users:
+        <tr>
+          <td><tt> ${u.username} </tt></td>
+          <td>
+           % if u.links:
+            % for a in u.links:
+           <a href="${a[1]}">${a[0]}</a>
+            % endfor
+           % else:
+             Undecided
+           % endif
+          </td>
+          <td> ${u.start} </td>
+        </tr>
+% endfor
+      </table>
+
+      <div id="footnotes">
+        <h3>Footnotes</h3>
+        <ol>
+          <li id="f1">Some of you are underage, and some of you don't
+          drink beer, so we'll figure out some way to accommodate as
+          appropriate. I'm open to suggestions. Hard apple cider and the
+          like count as "beer" for the purpose of this excercise.</li>
+        </ol>
+      </div>
+    </div>
+  </body>
+</html>
