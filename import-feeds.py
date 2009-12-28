@@ -25,13 +25,13 @@ for (name, u) in users.items():
         (title, url) = e[0:2]
         print " - %s:" % title.strip()
         e[0] = e[0].strip()
-        if len(e) < 3:
-            e.append(None)
+        if len(e) == 3:
+            continue
         link = fetch_links(url)
         if not link.startswith('http:'):
             link = urlparse.urljoin(url, link)
         print "   %s" % (link,)
-        e[2] = link
+        e.append(link)
 
 with open('bloggers.yml', 'w') as f:
     yaml.safe_dump(users, f)
