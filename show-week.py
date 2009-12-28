@@ -6,7 +6,7 @@ import sys
 
 START = datetime.datetime(2009, 12, 21, 6)
 
-with open('report.yml') as r:
+with open('out/report.yml') as r:
     report = yaml.safe_load(r)
 
 with open('bloggers.yml') as f:

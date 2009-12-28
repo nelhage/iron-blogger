@@ -49,5 +49,5 @@ for (username, u) in users.items():
     for (i, w) in enumerate(weeks):
         print " [%d]: %s" % (i, w)
 
-with open('report.yml', 'w') as f:
+with open('out/report.yml', 'w') as f:
     yaml.safe_dump(log, f)
