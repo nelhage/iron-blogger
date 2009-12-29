@@ -6,6 +6,10 @@ broder:
   links:
   - ["\u03B8: The nerd's angle", 'http://ebroder.net/', 'http://ebroder.net/feed/atom/']
   start: 12/28
+cbayley:
+  links:
+  - [Clare Bayley, 'http://clarebayley.com/', 'http://clarebayley.com/?feed=rss2']
+  start: 12/28
 cristen:
   links:
   - [cristenbc, 'http://www.cristenbc.com/', 'http://www.cristenbc.com/feeds/posts/default']
