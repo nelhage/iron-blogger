@@ -1,4 +1,4 @@
-Subject: IRON BLOGGER results for the week of ${week_start.strftime("%F")}
+Subject: IRON BLOGGER results for the week beginning ${week_start.strftime("%F")}
 To: iron-blogger@mit.edu
 
 People who posted:

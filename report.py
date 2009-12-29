@@ -20,9 +20,15 @@ def get_date(post):
     return post.updated
 
 def get_link(post):
+    if 'links' in post:
+        links = dict((l.rel, l) for l in post.links if 'html' in l.type)
+        if 'self' in links:
+            return links['self'].href
+        elif 'alternate' in links:
+            return links['alternate'].href
     if 'href' in post:
         return post.href
-    return post.links[0]['href']
+    return None
 
 def parse_feeds(weeks, uri):
     feed = feedparser.parse(uri)
