@@ -1,3 +1,4 @@
+#!/usr/bin/python
 from lxml import html
 import yaml
 import urllib2
