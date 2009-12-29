@@ -3,9 +3,8 @@ To: iron-blogger@mit.edu
 
 People who posted:
 % for u in sorted(good):
-<% posts = report[u][week] %>\
- ${u}:
- % for p in posts:
+ ${u.username}:
+ % for p in u.weeks[week]:
  - ${p['url']}
  % endfor
 % endfor
@@ -13,12 +12,12 @@ People who posted:
 People who failed to post:
 <% cash = 0 %>\
 % for u in sorted(lame):
- ${u}
+ ${u.username}
 % endfor
 
 People who have not yet started:
 % for u in sorted(skip):
- ${u}
+ ${u.username}
 % endfor
 
 Beer pool:
