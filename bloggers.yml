@@ -61,7 +61,8 @@ kevinr:
   - [Free Dissociation, 'http://free-dissociation.com/blog/', 'http://free-dissociation.com/blog/atom.xml']
   start: 12/21
 kyoki:
-  links: []
+  links:
+  - [The World's a Stage, 'http://kyoki.scripts.mit.edu/blog/', 'http://kyoki.scripts.mit.edu/blog/?feed=rss2']
   start: 12/28
 laura47:
   links:
