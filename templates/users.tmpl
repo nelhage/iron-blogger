@@ -1,0 +1,22 @@
+      <table id='participants'>
+        <tr>
+          <th>Who</th>
+          <th>Blog link</th>
+          <th>Start Week</th>
+        </tr>
+% for u in userlist:
+        <tr>
+          <td><tt> ${u.username} </tt></td>
+          <td>
+           % if u.links:
+            % for a in u.links:
+           <a href="${a[1]}">${a[0]}</a>
+            % endfor
+           % else:
+             Undecided
+           % endif
+          </td>
+          <td> ${u.start} </td>
+        </tr>
+% endfor
+      </table>
