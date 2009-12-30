@@ -4,7 +4,7 @@
           <th>Blog link</th>
           <th>Start Week</th>
         </tr>
-% for u in userlist:
+% for u in sorted(userlist, key=lambda u:u.username):
         <tr>
           <td><tt> ${u.username} </tt></td>
           <td>
