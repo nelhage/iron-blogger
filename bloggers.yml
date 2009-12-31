@@ -41,6 +41,10 @@ ianyh:
   links:
   - [Bias and Sandwiches, 'http://lucien.mit.edu/blog/', 'http://lucien.mit.edu/blog/?feed=atom']
   start: 12/21
+ismith:
+  links:
+  - [snarkbot@mit.edu, 'http://ismith.scripts.mit.edu/snarkblog', 'http://ismith.scripts.mit.edu/snarkblog/?feed=rss2']
+  start: 12/28
 jhamrick:
   links:
   - [Artificial Awareness, 'http://jhamrick.mit.edu', 'http://jhamrick.mit.edu/feed/atom/']
@@ -58,6 +62,10 @@ kasittig:
 kcr:
   links:
   - [procrastination diagram, 'http://www.1ts.org/~kcr/', 'http://www.1ts.org/~kcr/index.rss']
+  start: 12/28
+kdrinkwa:
+  links:
+  - [The Dendritic Arbor, 'http://dendritic-arbor.blogspot.com', 'http://dendritic-arbor.blogspot.com/feeds/posts/default']
   start: 12/28
 keach:
   links: []
