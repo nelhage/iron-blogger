@@ -83,7 +83,8 @@ laura47:
   - [LAURA, 'http://lauraboylan.blogspot.com/', 'http://lauraboylan.blogspot.com/feeds/posts/default']
   start: 12/21
 lexrj:
-  links: []
+  links:
+  - ['Mode: Lexcellent', 'http://lexrj.scripts.mit.edu/lexcellence/', 'http://lexrj.scripts.mit.edu/lexcellence/?feed=rss2']
   start: 12/28
 lizdenys:
   links:
