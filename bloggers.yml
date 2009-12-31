@@ -10,6 +10,9 @@ cbayley:
   links:
   - [Clare Bayley, 'http://clarebayley.com/', 'http://clarebayley.com/?feed=rss2']
   start: 12/28
+ccpost:
+  links: []
+  start: 12/28
 cristen:
   links:
   - [cristenbc, 'http://www.cristenbc.com/', 'http://www.cristenbc.com/feeds/posts/default']
@@ -55,6 +58,9 @@ kasittig:
 kcr:
   links:
   - [procrastination diagram, 'http://www.1ts.org/~kcr/', 'http://www.1ts.org/~kcr/index.rss']
+  start: 12/28
+keach:
+  links: []
   start: 12/28
 kevinr:
   links:
@@ -114,11 +120,5 @@ xavid:
   start: 12/28
 zhangc:
   links:
-  - [Somatic Hypermutation, 'http://zhangc.scripts.mit.edu/~zhangc/shm/', 'http://zhangc.scripts.mit.edu/~zhangc/shm/feed/']
+  - [Somatic Hypermutation, 'http://zhangc.scripts.mit.edu/shm/', 'http://zhangc.scripts.mit.edu/shm/feed/']
   start: 12/21
-keach:
-  links: []
-  start: 12/28
-ccpost:
-  links: []
-  start: 12/28
