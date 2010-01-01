@@ -17,6 +17,10 @@ cristen:
   links:
   - [cristenbc, 'http://www.cristenbc.com/', 'http://www.cristenbc.com/feeds/posts/default']
   start: 12/21
+cslink:
+  links:
+  - [cslink, 'http://cslink.scripts.mit.edu/blog/', 'http://cslink.scripts.mit.edu/blog/?feed=rss2']
+  start: 12/28
 ezyang:
   links:
   - [Inside 245s, 'http://ezyang.scripts.mit.edu/blog/', 'http://ezyang.scripts.mit.edu/blog/feed/atom/']
