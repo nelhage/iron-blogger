@@ -29,6 +29,8 @@ def get_link(post):
             return links['alternate'].href
     if 'href' in post:
         return post.href
+    if 'link' in post:
+        return post.link
     return None
 
 def parse_feeds(weeks, uri):
