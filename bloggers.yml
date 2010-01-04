@@ -2,6 +2,10 @@ adehnert:
   links:
   - [Alex Dehnert's Blog, 'http://www.dehnert.arctic.org/~alex/meta/news/', 'http://www.dehnert.arctic.org/~alex/meta/news/?format=rss-full']
   start: 12/21
+afarrell:
+  links:
+  - ['10,000 Hours', 'http://afarrell.scripts.mit.edu/blog/', 'http://afarrell.scripts.mit.edu/blog/?feed=rss2']
+  start: 12/28
 broder:
   links:
   - ["\u03B8: The nerd's angle", 'http://ebroder.net/', 'http://ebroder.net/feed/atom/']
@@ -110,6 +114,11 @@ quentin:
   links:
   - [QLJ, 'http://coolerq.livejournal.com/', 'http://coolerq.livejournal.com/data/atom']
   start: 12/21
+seborn:
+  links:
+  - [Developmental Appropriation, 'http://developmental-appropriation.blogspot.com/',
+    'http://developmental-appropriation.blogspot.com/feeds/posts/default']
+  start: 12/28
 spang:
   links:
   - [blog.spang.cc, 'http://blog.spang.cc/', 'http://blog.spang.cc/index.atom']
@@ -135,7 +144,3 @@ zhangc:
   links:
   - [Somatic Hypermutation, 'http://zhangc.scripts.mit.edu/shm/', 'http://zhangc.scripts.mit.edu/shm/feed/']
   start: 12/21
-seborn:
-  links:
-  - ['Developmental Appropriation', 'http://developmental-appropriation.blogspot.com/']
-  start: 12/28
