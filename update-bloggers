@@ -1,0 +1,7 @@
+#!/bin/sh
+HERE=$(dirname "$0")
+$HERE/import-feeds.py
+$HERE/render.py $HERE/templates/config.ini > /mit/nelhage/planet/iron-blogger/config.ini
+$HERE/update-participants.py
+cp "$HERE/bloggers.yml" /mit/nelhage/web_scripts/iron-blogger/
+chmod 777 /mit/nelhage/web_scripts/iron-blogger/bloggers.yml
