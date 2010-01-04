@@ -15,10 +15,12 @@ People who failed to post:
  ${u.username}
 % endfor
 
+% if skip:
 People who have not yet started:
 % for u in sorted(skip):
  ${u.username}
 % endfor
+% endif
 
 Beer pool:
 This week: $${5 * len(lame)}.00
