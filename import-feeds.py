@@ -21,17 +21,14 @@ def fetch_links(url):
     return links[0].attrib['href']
 
 for (name, u) in users.items():
-    print "[%s]" % name
     for e in u['links']:
         (title, url) = e[0:2]
-        print " - %s:" % title.strip()
         e[0] = e[0].strip()
         if len(e) == 3:
             continue
         link = fetch_links(url)
         if not link.startswith('http:'):
             link = urlparse.urljoin(url, link)
-        print "   %s" % (link,)
         e.append(link)
 
 with open('bloggers.yml', 'w') as f:
