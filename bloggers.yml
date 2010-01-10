@@ -15,7 +15,8 @@ cbayley:
   - [Clare Bayley, 'http://clarebayley.com/', 'http://clarebayley.com/?feed=rss2']
   start: 12/28
 ccpost:
-  links: []
+  links:
+  - [ccpost, 'http://ccpost.scripts.mit.edu/blog/', 'http://ccpost.scripts.mit.edu/blog/?feed=rss2']
   start: 12/28
 cristen:
   links:
