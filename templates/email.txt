@@ -2,7 +2,7 @@ Subject: IRON BLOGGER results for the week beginning ${week_start.strftime("%F")
 To: iron-blogger@mit.edu
 
 People who posted:
-% for u in sorted(good):
+% for u in sorted(good, key=lambda u:u.username):
  ${u.username}:
  % for p in u.weeks[week]:
  - ${p['url']}
@@ -11,13 +11,13 @@ People who posted:
 
 People who failed to post:
 <% cash = 0 %>\
-% for u in sorted(lame):
+% for u in sorted(lame, key=lambda u:u.username):
  ${u.username}
 % endfor
 
 % if skip:
 People who have not yet started:
-% for u in sorted(skip):
+% for u in sorted(skip,  key=lambda u:u.username):
  ${u.username}
 % endfor
 % endif
