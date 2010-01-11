@@ -77,7 +77,8 @@ kdrinkwa:
   - [The Dendritic Arbor, 'http://dendritic-arbor.blogspot.com', 'http://dendritic-arbor.blogspot.com/feeds/posts/default']
   start: 12/28
 keach:
-  links: []
+  links:
+  - [Cheesegrating 101, 'http://keach.scripts.mit.edu/blog/', 'http://keach.scripts.mit.edu/blog/?feed=rss2']
   start: 12/28
 kevinr:
   links:
