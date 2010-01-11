@@ -126,7 +126,7 @@ spang:
   start: 12/28
 tibbetts:
   links:
-  - [Streambase, 'http://streambase.typepad.com/', 'http://streambase.typepad.com/streambase_stream_process/atom.xml']
+#  - [Streambase, 'http://streambase.typepad.com/', 'http://streambase.typepad.com/streambase_stream_process/atom.xml']
   - [Hyperextended Metaphor, 'http://innocuous.org/', 'http://innocuous.org/feed/']
   start: 12/21
 vinayak:
