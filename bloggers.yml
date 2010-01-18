@@ -137,6 +137,7 @@ vinayak:
 wings:
   links:
   - [PiPER, 'http://wings.scripts.mit.edu/blog/', 'http://wings.scripts.mit.edu/blog/feed/']
+  - [panscience, 'http://wings.mit.edu/blog/', 'http://wings.mit.edu/blog/feed/']
   start: 12/21
 xavid:
   links:
