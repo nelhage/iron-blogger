@@ -59,7 +59,8 @@ jhamrick:
   - [Artificial Awareness, 'http://jhamrick.mit.edu', 'http://jhamrick.mit.edu/feed/atom/']
   start: 12/21
 kaduk:
-  links: []
+  links:
+  - [Comity of Errors, 'http://kaduk.org/bjk/blog/', 'http://kaduk.org/bjk/blog/feed/']
   start: 12/28
 kaia:
   links: []
