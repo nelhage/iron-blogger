@@ -2,6 +2,7 @@
 import yaml
 import feedparser
 import datetime
+import sys
 from dateutil.parser import parse
 import dateutil.tz as tz
 
@@ -25,6 +26,8 @@ def get_link(post):
 
 def parse_feeds(weeks, uri):
     feed = feedparser.parse(uri)
+    if not feed.entries:
+        print >>sys.stderr, "WARN: no entries for ", uri
     for post in feed.entries:
         date = parse_published(get_date(post))
 
