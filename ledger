@@ -83,3 +83,16 @@
   User:seborn    -$5
   Pool:Owed:seborn
 
+
+2010-01-18 Payment
+  Pool:Owed:kaduk   -$10
+  Pool:Paid
+2010-01-18 Payment
+  Pool:Owed:adehnert -$5
+  Pool:Paid
+2010-01-18 Payment
+  Pool:Owed:zhangc   -$5
+  Pool:Paid
+2010-01-18 Payment
+  Pool:Owed:lexrj   -$5
+  Pool:Paid
