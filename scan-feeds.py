@@ -9,7 +9,11 @@ import dateutil.tz as tz
 with open('bloggers.yml') as f:
     users = yaml.safe_load(f.read())
 
-log = {}
+try:
+    with open('out/report.yml') as f:
+        log = yaml.safe_load(f.read())
+except IOError:
+    log = {}
 
 START = datetime.datetime(2009, 12, 21, 6)
 
@@ -37,19 +41,17 @@ def parse_feeds(weeks, uri):
 
         while len(weeks) <= wn:
             weeks.append([])
-        weeks[wn].append(dict(
-                date=date,
-                title=post.title,
-                url=get_link(post)))
+
+        post = dict(date=date,
+                    title=post.title,
+                    url=get_link(post))
+        if post['url'] not in [p['url'] for p in weeks[wn]]:
+            weeks[wn].append(post)
 
 for (username, u) in users.items():
-    weeks = []
-    print "[%s]" % (username)
+    weeks = log.setdefault(username, [])
     for l in u['links']:
         parse_feeds(weeks, l[2])
-    log[username] = weeks
-    for (i, w) in enumerate(weeks):
-        print " [%d]: %s" % (i, w)
 
 with open('out/report.yml', 'w') as f:
     yaml.safe_dump(log, f)
