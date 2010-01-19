@@ -1,0 +1,5 @@
+% for u in sorted(lame, key=lambda u:u.username):
+${week_end.strftime("%F")} Week ${week}
+  User:${u.username}    -$5
+  Pool:Owed:${u.username}
+% endfor
