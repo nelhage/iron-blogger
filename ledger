@@ -135,3 +135,7 @@
   User:tibbetts    $-5
   Pool:Owed:tibbetts
 
+
+2010-01-25 Payment
+  Pool:Owed:geofft  $-5
+  Pool:Paid
