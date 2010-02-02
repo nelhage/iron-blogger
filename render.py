@@ -5,9 +5,12 @@ import datetime
 import dateutil.tz as tz
 import sys
 import os
+import os.path
+import subprocess
 from mako.template import Template
 
 START = datetime.datetime(2009, 12, 21, 6)
+HERE  = os.path.dirname(__file__)
 
 def render_template(path, week=None):
     with open('out/report.yml') as r:
@@ -55,9 +58,16 @@ def render_template(path, week=None):
         else:
             good.append(u)
 
+    p = subprocess.Popen(['ledger', '-f', os.path.join(HERE,'ledger'),
+                          '-n', 'balance', 'Pool'],
+                         stdout=subprocess.PIPE)
+    (out, _) = p.communicate()
+    pool = int(out.split()[0][1:])
+
     return Template(filename=path, output_encoding='utf-8').render(
         week=week, week_start=week_start,week_end=week_end,
-        good=good, lame=lame, skip=skip, userlist=userlist)
+        good=good, lame=lame, skip=skip, userlist=userlist,
+        pool=pool)
 
 if __name__ == '__main__':
     if len(sys.argv) < 2:

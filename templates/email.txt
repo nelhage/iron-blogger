@@ -24,4 +24,4 @@ People who have not yet started:
 
 Beer pool:
 This week: $${5 * len(lame)}.00
-Total:     $.00
+Total:     $${pool}.00
