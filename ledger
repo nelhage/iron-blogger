@@ -177,3 +177,7 @@
   User:xavid    $-5
   Pool:Owed:xavid
 
+2010-01-25 Payment
+  Pool:Owed:nelhage  $-5
+  Pool:Paid
+
