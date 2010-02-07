@@ -38,6 +38,10 @@ fyrrwulf:
   links:
   - [Mad Engineering at its Finest, 'http://codydaniel.wordpress.com', 'http://codydaniel.wordpress.com/feed/']
   start: 12/21
+gdb:
+  links:
+  - ['[insert title here]', 'http://gdb.scripts.mit.edu/blog/', 'http://gdb.scripts.mit.edu/blog/feed/']
+  start: 2/8/2010
 geofft:
   links:
   - [syskblogd, 'http://geofft.mit.edu/blog/', 'http://geofft.mit.edu/blog/feed']
