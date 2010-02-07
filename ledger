@@ -181,3 +181,34 @@
   Pool:Owed:nelhage  $-5
   Pool:Paid
 
+2010-02-06 Payment
+  Pool:Owed:fawkes  $-5
+  Pool:Paid
+2010-02-06 Payment
+  Pool:Owed:havasi  $-10
+  Pool:Paid
+2010-02-06 Payment
+  Pool:Owed:kaduk  $-5
+  Pool:Paid
+2010-02-06 Payment
+  Pool:Owed:keach  $-20
+  Pool:Paid
+2010-02-06 Payment
+  Pool:Owed:lizdenys  $-5
+  Pool:Paid
+2010-02-06 Payment
+  Pool:Owed:quentin  $-5
+  Pool:Paid
+2010-02-06 Payment
+  Pool:Owed:tibbetts  $-10
+  Pool:Paid
+2010-02-06 Payment
+  Pool:Owed:vinayak  $-5
+  Pool:Paid
+2010-02-06 Payment
+  Pool:Owed:xavid  $-5
+  Pool:Paid
+
+2010-02-06 CBC outage
+  Pool:Paid        $-140
+  Events
