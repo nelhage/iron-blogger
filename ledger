@@ -212,3 +212,7 @@
 2010-02-06 CBC outage
   Pool:Paid        $-140
   Events
+
+2010-02-07 Removing kaia
+  User:kaia    $25
+  Pool:Owed:kaia
