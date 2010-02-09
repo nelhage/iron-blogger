@@ -217,6 +217,6 @@
   User:kaia    $25
   Pool:Owed:kaia
 
-2010-02-08 Paymeny
-  User:afarrell  $-5
+2010-02-08 Payment
+  Pool:Owed:afarrell  $-10
   Pool:Paid
