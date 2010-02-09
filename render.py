@@ -40,6 +40,7 @@ def render_template(path, week=None):
         u.username = un
         u.links = rec['links']
         u.start = rec['start']
+        u.end   = rec.get('end')
         u.weeks = report.get(un, [])
 
         userlist.append(u)
@@ -51,6 +52,9 @@ def render_template(path, week=None):
 
     for u in userlist:
         user_start = parse(u.start, default=START)
+        if u.end and parse(u.end, default=START) <= week_start:
+            continue
+
         if user_start > week_start:
             skip.append(u)
         elif len(u.weeks) <= week or not u.weeks[week]:
