@@ -1,6 +1,7 @@
 #!/usr/bin/python
 from lxml import html
 import yaml
+import sys
 import urllib2
 import urlparse
 
@@ -18,7 +19,11 @@ def fetch_links(url):
                   'comments' not in l.attrib.get('title','')]
     if candidates:
         return candidates[0].attrib['href']
-    return links[0].attrib['href']
+    elif links:
+        return links[0].attrib['href']
+    else:
+        print >>sys.stderr, "No link found for %s" % (url,)
+        return None
 
 for (name, u) in users.items():
     for e in u['links']:
@@ -27,9 +32,10 @@ for (name, u) in users.items():
         if len(e) == 3:
             continue
         link = fetch_links(url)
-        if not link.startswith('http:'):
-            link = urlparse.urljoin(url, link)
-        e.append(link)
+        if link:
+            if not link.startswith('http:'):
+                link = urlparse.urljoin(url, link)
+            e.append(link)
 
 with open('bloggers.yml', 'w') as f:
     yaml.safe_dump(users, f)
