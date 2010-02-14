@@ -45,7 +45,7 @@ fyrrwulf:
   start: 12/21
 gdb:
   links:
-  - ['[insert title here]', 'http://gdb.scripts.mit.edu/blog/', 'http://gdb.scripts.mit.edu/blog/feed/']
+  - ['[insert title here]', 'http://blog.gregbrockman.com/', 'http://blog.gregbrockman.com/feed/']
   start: 2/8/2010
 geofft:
   links:
