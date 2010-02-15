@@ -21,9 +21,9 @@ def parse_published(pub):
     return parse(pub).astimezone(tz.tzlocal()).replace(tzinfo=None)
 
 def get_date(post):
-    if 'published' in post:
-        return post.published
-    return post.updated
+    for k in ('published', 'created', 'updated'):
+        if k in post:
+            return post[k]
 
 def get_link(post):
     return post.link
