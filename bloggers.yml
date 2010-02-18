@@ -1,3 +1,7 @@
+Adam Fletcher:
+  links:
+  - [The Simple Logic, 'http://www.thesimplelogic.com/', 'http://www.thesimplelogic.com/feed/']
+  start: 02/15/2010
 adehnert:
   links:
   - [Alex Dehnert's Blog, 'http://www.dehnert.arctic.org/~alex/meta/news/', 'http://www.dehnert.arctic.org/~alex/meta/news/?format=rss-full']
@@ -31,6 +35,11 @@ cslink:
   links:
   - [cslink, 'http://cslink.scripts.mit.edu/blog/', 'http://cslink.scripts.mit.edu/blog/?feed=rss2']
   start: 12/28
+davidben:
+  links:
+  - [Apparently this installer wants a title, 'http://davidben.scripts.mit.edu/blog/',
+    'http://davidben.scripts.mit.edu/blog/feed/']
+  start: 02/15/2010
 ezyang:
   links:
   - [Inside 245s, 'http://ezyang.scripts.mit.edu/blog/', 'http://ezyang.scripts.mit.edu/blog/feed/atom/']
@@ -159,7 +168,3 @@ zhangc:
   links:
   - [Somatic Hypermutation, 'http://zhangc.scripts.mit.edu/shm/', 'http://zhangc.scripts.mit.edu/shm/feed/']
   start: 12/21
-davidben:
-  links:
-  - [Apparently this installer wants a title, 'http://davidben.scripts.mit.edu/blog/', 'http://davidben.scripts.mit.edu/blog/feed/']
-  start: 02/15/2010
