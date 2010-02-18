@@ -159,3 +159,7 @@ zhangc:
   links:
   - [Somatic Hypermutation, 'http://zhangc.scripts.mit.edu/shm/', 'http://zhangc.scripts.mit.edu/shm/feed/']
   start: 12/21
+davidben:
+  links:
+  - [Apparently this installer wants a title, 'http://davidben.scripts.mit.edu/blog/', 'http://davidben.scripts.mit.edu/blog/feed/']
+  start: 02/15/2010
