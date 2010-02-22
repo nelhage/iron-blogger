@@ -76,6 +76,10 @@ jhamrick:
   links:
   - [Artificial Awareness, 'http://jhamrick.mit.edu', 'http://jhamrick.mit.edu/feed/atom/']
   start: 12/21
+joyp:
+  links:
+  - [Talus Slopes, 'http://talusslopes.blogspot.com/', 'http://talusslopes.blogspot.com/feeds/posts/default']
+  start: 02/15/2010
 kaduk:
   links:
   - [Comity of Errors, 'http://kaduk.org/bjk/blog/', 'http://kaduk.org/bjk/blog/feed/']
