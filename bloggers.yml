@@ -71,7 +71,7 @@ ianyh:
   start: 12/21
 ismith:
   links:
-  - [snarkbot@mit.edu, 'http://ismith.scripts.mit.edu/snarkblog', 'http://ismith.scripts.mit.edu/snarkblog/?feed=rss2']
+  - [snarkbot@mit.edu, 'http://ismith.scripts.mit.edu/snarkblog', 'https://ismith.scripts.mit.edu/snarkblog/?feed=rss2']
   start: 12/28
 jhamrick:
   links:
