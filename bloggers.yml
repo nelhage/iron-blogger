@@ -31,6 +31,7 @@ cristen:
   links:
   - [cristenbc, 'http://www.cristenbc.com/', 'http://www.cristenbc.com/feeds/posts/default']
   start: 12/21
+  end: 02/15/2010
 cslink:
   links:
   - [cslink, 'http://cslink.scripts.mit.edu/blog/', 'http://cslink.scripts.mit.edu/blog/?feed=rss2']
