@@ -28,10 +28,10 @@ ccpost:
   - [Chrispy, 'http://ccpost.scripts.mit.edu/blog/', 'http://ccpost.scripts.mit.edu/blog/?feed=rss2']
   start: 12/28
 cristen:
+  end: 02/15/2010
   links:
   - [cristenbc, 'http://www.cristenbc.com/', 'http://www.cristenbc.com/feeds/posts/default']
   start: 12/21
-  end: 02/15/2010
 cslink:
   links:
   - [cslink, 'http://cslink.scripts.mit.edu/blog/', 'http://cslink.scripts.mit.edu/blog/?feed=rss2']
@@ -141,6 +141,7 @@ price:
 quentin:
   links:
   - [QLJ, 'http://coolerq.livejournal.com/', 'http://coolerq.livejournal.com/data/atom']
+  - [scripts.mit.edu, 'http://scripts.mit.edu/news/?author=quentin+', 'http://scripts.mit.edu/rss/?author=quentin']
   start: 12/21
 seborn:
   links:
