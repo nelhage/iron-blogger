@@ -71,7 +71,7 @@ ianyh:
   start: 12/21
 ismith:
   links:
-  - [snarkbot@mit.edu, 'http://ismith.scripts.mit.edu/snarkblog', 'https://ismith.scripts.mit.edu/snarkblog/?feed=rss2']
+  - [snarkbot@mit.edu, 'http://ismith.scripts.mit.edu/snarkblog', 'http://ismith.scripts.mit.edu/feed']
   start: 12/28
 jhamrick:
   links:
@@ -120,7 +120,7 @@ lexrj:
   start: 12/28
 lizdenys:
   links:
-  - [Playing with Negative Space, 'http://lizdenys.scripts.mit.edu/blog', 'http://lizdenys.scripts.mit.edu/blog/feed/']
+  - [Playing with Negative Space, 'http://negativespace.mit.edu', 'http://lizdenys.scripts.mit.edu/blog/feed/']
   start: 12/28
 nelhage:
   links:
