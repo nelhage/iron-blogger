@@ -18,6 +18,9 @@ finally:
 
 x = xmlrpclib.ServerProxy(XMLRPC_ENDPOINT)
 
+with open('ledger', 'a') as f:
+    f.write(render.render_template('templates/ledger', sys.argv[1]))
+
 text = render.render_template('templates/week.tmpl', sys.argv[1])
 
 lines = text.split("\n")
@@ -28,3 +31,7 @@ page = dict(title = title,
             description = body)
 
 x.metaWeblog.newPost(BLOG_ID, USER, passwd, page, True)
+
+p = subprocess.Popen(['mutt', '-H', '/dev/stdin'],
+                     stdin=subprocess.PIPE)
+p.communicate(render.render_template('templates/email.txt', sys.argv[1]))
