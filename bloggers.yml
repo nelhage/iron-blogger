@@ -65,6 +65,7 @@ havasi:
   links:
   - [Common Sense Computing Initiative, 'http://csc.media.mit.edu/blog/havasi', 'http://csc.media.mit.edu/blog/1/feed']
   start: 12/28
+  skip: [3/8/2010]
 ianyh:
   links:
   - [Bias and Sandwiches, 'http://lucien.mit.edu/blog/', 'http://lucien.mit.edu/blog/?feed=atom']
