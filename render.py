@@ -41,6 +41,8 @@ def render_template(path, week=None):
         u.links = rec['links']
         u.start = rec['start']
         u.end   = rec.get('end')
+        u.skip  = [(parse(x, default=START) - START).days / 7
+                   for x in rec.get('skip', [])]
         u.weeks = report.get(un, [])
 
         userlist.append(u)
@@ -55,7 +57,9 @@ def render_template(path, week=None):
         if u.end and parse(u.end, default=START) <= week_start:
             continue
 
-        if user_start > week_start:
+        if week in u.skip:
+            pass
+        elif user_start > week_start:
             skip.append(u)
         elif len(u.weeks) <= week or not u.weeks[week]:
             lame.append(u)

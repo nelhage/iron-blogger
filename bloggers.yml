@@ -90,6 +90,7 @@ kasittig:
   links:
   - [Wuthering Snow Mooncrash, 'http://kasittig.scripts.mit.edu/blog/', 'http://kasittig.scripts.mit.edu/blog/?feed=rss2']
   start: 12/21
+  skip: [3/15/2010]
 kcr:
   links:
   - [procrastination diagram, 'http://www.1ts.org/~kcr/', 'http://www.1ts.org/~kcr/index.rss']
