@@ -505,3 +505,7 @@
 2010-03-29 Payment
   Pool:Owed:oremanj  $-15
   Pool:Paid
+
+2010-03-29 Payment
+  Pool:Owed:nelhage  $-5
+  Pool:Paid
