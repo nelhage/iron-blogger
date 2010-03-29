@@ -23,6 +23,7 @@ cbayley:
   links:
   - [Clare Bayley, 'http://clarebayley.com/', 'http://clarebayley.com/?feed=rss2']
   start: 12/28
+  skip: [3/22/2010]
 ccpost:
   links:
   - [Chrispy, 'http://ccpost.scripts.mit.edu/blog/', 'http://ccpost.scripts.mit.edu/blog/?feed=rss2']
