@@ -501,3 +501,7 @@
 2010-03-29 Week 13
   User:xavid    $-5
   Pool:Owed:xavid
+
+2010-03-29 Payment
+  Pool:Owed:oremanj  $-15
+  Pool:Paid
