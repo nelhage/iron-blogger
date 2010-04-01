@@ -22,8 +22,8 @@ broder:
 cbayley:
   links:
   - [Clare Bayley, 'http://clarebayley.com/', 'http://clarebayley.com/?feed=rss2']
-  start: 12/28
   skip: [3/22/2010]
+  start: 12/28
 ccpost:
   links:
   - [Chrispy, 'http://ccpost.scripts.mit.edu/blog/', 'http://ccpost.scripts.mit.edu/blog/?feed=rss2']
@@ -62,16 +62,21 @@ geofft:
   links:
   - [syskblogd, 'http://geofft.mit.edu/blog/', 'http://geofft.mit.edu/blog/feed']
   start: 12/21
+gjlohman:
+  links:
+  - ['Reviews, Rants and Writings', 'http://reviewsrantsandwritings.blogspot.com/',
+    'http://reviewsrantsandwritings.blogspot.com/feeds/posts/default']
+  start: 03/29/2010
 havasi:
   links:
   - [Common Sense Computing Initiative, 'http://csc.media.mit.edu/blog/havasi', 'http://csc.media.mit.edu/blog/1/feed']
-  start: 12/28
   skip: [3/8/2010]
+  start: 12/28
 ianyh:
+  end: 2/8/2010
   links:
   - [Bias and Sandwiches, 'http://lucien.mit.edu/blog/', 'http://lucien.mit.edu/blog/?feed=atom']
   start: 12/21
-  end: 2/8/2010
 ismith:
   links:
   - [snarkbot@mit.edu, 'http://ismith.scripts.mit.edu/snarkblog', 'http://ismith.scripts.mit.edu/feed']
@@ -91,8 +96,8 @@ kaduk:
 kasittig:
   links:
   - [Wuthering Snow Mooncrash, 'http://kasittig.scripts.mit.edu/blog/', 'http://kasittig.scripts.mit.edu/blog/?feed=rss2']
-  start: 12/21
   skip: [3/15/2010]
+  start: 12/21
 kcr:
   links:
   - [procrastination diagram, 'http://www.1ts.org/~kcr/', 'http://www.1ts.org/~kcr/index.rss']
