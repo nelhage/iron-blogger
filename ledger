@@ -509,3 +509,7 @@
 2010-03-29 Payment
   Pool:Owed:nelhage  $-5
   Pool:Paid
+
+2010-03-31 Payment
+  Pool:Owed:lizdenys  $-5
+  Pool:Paid
