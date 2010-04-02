@@ -513,3 +513,7 @@
 2010-03-31 Payment
   Pool:Owed:lizdenys  $-5
   Pool:Paid
+
+2010-04-01 Payment
+  Pool:Owed:davidben  $-5
+  Pool:Paid
