@@ -517,3 +517,52 @@
 2010-04-01 Payment
   Pool:Owed:davidben  $-5
   Pool:Paid
+
+2010-04-03 Drinks for meetup
+ Pool:Paid  $-130
+ Events
+
+2010-04-03 Mixers for meetup
+ Pool:Paid  $-30
+ Events
+
+2010-04-03 Domino's order
+ Pool:Paid  $-58
+ Events
+
+2010-04-03 Payment
+  Pool:Owed:cbayley  $-10
+  Pool:Paid
+2010-04-03 Payment
+  Pool:Owed:austein  $-10
+  Pool:Paid
+2010-04-03 Payment
+  Pool:Owed:kaduk  $-10
+  Pool:Paid
+2010-04-03 Payment
+  Pool:Owed:cslink  $-15
+  Pool:Paid
+2010-04-03 Payment
+  Pool:Owed:gdb  $-15
+  Pool:Paid
+2010-04-03 Payment
+  Pool:Owed:ccpost  $-25
+  Pool:Paid
+2010-04-03 Payment
+  Pool:Owed:vinayak  $-15
+  Pool:Paid
+2010-04-03 Payment
+  Pool:Owed:fawkes  $-5
+  Pool:Paid
+2010-04-03 Payment
+  Pool:Owed:tibbetts  $-30
+  Pool:Paid
+2010-04-03 Payment
+  Pool:Owed:price  $-15
+  Pool:Paid
+2010-04-03 Payment
+  Pool:Owed:kcr  $-5
+  Pool:Paid
+2010-04-03 Payment
+  Pool:Owed:kasittig  $-10
+  Pool:Paid
