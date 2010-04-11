@@ -180,6 +180,7 @@ wings:
 xavid:
   links:
   - [Fireflies Sing, 'http://fireflies.xavid.us/', 'http://fireflies.xavid.us/feed/atom/']
+  - [Echoes from Dreamspace, 'http://oneiro.mancy.us/', 'http://oneiro.mancy.us/feed/']
   start: 12/28
 zhangc:
   links:
