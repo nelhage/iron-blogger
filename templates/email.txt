@@ -1,7 +1,7 @@
 Subject: IRON BLOGGER results for the week beginning ${week_start.strftime("%F")}
 To: iron-blogger@mit.edu
 
-SLACKERS: ${",".join(sorted([u.username for u in lame]))}
+SLACKERS: ${", ".join(sorted([u.username for u in lame]))}
 
 People who posted:
 % for u in sorted(good, key=lambda u:u.username):
