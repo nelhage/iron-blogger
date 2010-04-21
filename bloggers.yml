@@ -138,6 +138,7 @@ nelhage:
   links:
   - [Made of Bugs, 'http://blog.nelhage.com', 'http://blog.nelhage.com/feed']
   start: 12/21
+  skip: [4/12/2010]
 oremanj:
   links:
   - [Iterative Refinement, 'http://oremanj.scripts.mit.edu/blog', 'http://oremanj.scripts.mit.edu/blog/feed/']
