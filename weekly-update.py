@@ -19,7 +19,11 @@ finally:
 x = xmlrpclib.ServerProxy(XMLRPC_ENDPOINT)
 
 with open('ledger', 'a') as f:
+    f.write("\n")
     f.write(render.render_template('templates/ledger', sys.argv[1]))
+
+subprocess.check_call(["git", "commit", "templates/ledger",
+                       "-m", "Update for %s" % (sys.argv[1],)])
 
 text = render.render_template('templates/week.tmpl', sys.argv[1])
 
