@@ -785,3 +785,13 @@
 2010-05-10 Week 19
   User:xavid    $-5
   Pool:Owed:xavid
+
+2010-05-14 Payment
+  Pool:Owed:jhamrick  $-15
+  Pool:Paid
+2010-05-14 Payment
+  Pool:Owed:lizdenys  $-5
+  Pool:Paid
+2010-05-14 Payment
+  Pool:Owed:nelhage  $-10
+  Pool:Paid
