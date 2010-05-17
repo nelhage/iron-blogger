@@ -30,6 +30,7 @@ ccpost:
   - [Chrispy, 'http://ccpost.scripts.mit.edu/blog/', 'http://ccpost.scripts.mit.edu/blog/?feed=rss2']
   start: 12/28
   skip: [4/5/2010]
+  end:  5/10/2010
 cristen:
   end: 02/15/2010
   links:
@@ -74,6 +75,7 @@ havasi:
   - [Common Sense Computing Initiative, 'http://csc.media.mit.edu/blog/havasi', 'http://csc.media.mit.edu/blog/1/feed']
   skip: [3/8/2010]
   start: 12/28
+  end:  5/10/2010
 ianyh:
   end: 2/8/2010
   links:
