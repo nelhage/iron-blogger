@@ -795,3 +795,25 @@
 2010-05-14 Payment
   Pool:Owed:nelhage  $-10
   Pool:Paid
+
+2010-05-16 Payment
+  Pool:Owed:adehnert  $-5
+  Pool:Paid
+2010-05-16 Payment
+  Pool:Owed:gdb  $-20
+  Pool:Paid
+2010-05-16 Payment
+  Pool:Owed:gjlohman  $-5
+  Pool:Paid
+2010-05-16 Cookout
+  Pool:Owed:kaduk  $-5
+  Events
+2010-05-16 Payment
+  Pool:Owed:kevinr  $-20
+  Events
+2010-05-16 Payment
+  Pool:Owed:kyoki  $-15
+  Events
+2010-05-16 Payment
+  Pool:Owed:xavid  $-20
+  Events
