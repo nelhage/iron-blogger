@@ -817,3 +817,7 @@
 2010-05-16 Payment
   Pool:Owed:xavid  $-20
   Pool:Paid
+
+2010-05-15 Cookout food
+  Pool:Paid        $-171
+  Events
