@@ -66,16 +66,30 @@ def render_template(path, week=None):
         else:
             good.append(u)
 
+    def get_balance(acct):
+        p = subprocess.Popen(['ledger', '-f', os.path.join(HERE,'ledger'),
+                              '-n', 'balance', acct],
+                             stdout=subprocess.PIPE)
+        (out, _) = p.communicate()
+        return int(out.split()[0][1:])
+
     p = subprocess.Popen(['ledger', '-f', os.path.join(HERE,'ledger'),
-                          '-n', 'balance', 'Pool'],
+                          '-n', 'balance', 'Pool:Owed:'],
                          stdout=subprocess.PIPE)
     (out, _) = p.communicate()
-    pool = int(out.split()[0][1:])
+    debts = []
+    for line in out.split("\n"):
+        if not line: continue
+        (val, acct) = line.split()
+        user = acct[len("Pool:Owed:"):]
+        val  = int(val[len("$"):])
+        debts.append((user, val))
 
     return Template(filename=path, output_encoding='utf-8').render(
         week=week, week_start=week_start,week_end=week_end,
         good=good, lame=lame, skip=skip, userlist=userlist,
-        pool=pool)
+        pool=get_balance('Pool'), paid=get_balance('Pool:Paid'),
+        debts=debts)
 
 if __name__ == '__main__':
     if len(sys.argv) < 2:

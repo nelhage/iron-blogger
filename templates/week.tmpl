@@ -31,5 +31,13 @@ Results for week beginning ${week_start.strftime("%F")}
 <h2>Beer pool:</h2>
 <table>
   <tr> <td> This week: </td> <td> $${5 * len(lame)}.00 </td> </tr>
-  <tr> <td> Total: </td> <td> ${pool}.00 </td> </tr>
+  <tr> <td> Total: </td> <td> $${pool}.00 </td> </tr>
+  <tr> <td> Paid: </td> <td> $${paid}.00 </td> </tr>
+</table>
+
+<h2>Debts:</h2>
+<table>
+% for (u, v) in sorted(debts, key=lambda p:p[1], reverse=True):
+<tr><td>${u}</td> <td>${v}</td></tr>
+% endfor
 </table>

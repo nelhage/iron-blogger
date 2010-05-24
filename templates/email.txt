@@ -21,3 +21,9 @@ People who have not yet started:
 Beer pool:
 This week: $${5 * len(lame)}.00
 Total:     $${pool}.00
+Paid:      $${paid}.00
+
+Individual debts:
+% for (u, v) in sorted(debts, key=lambda p:p[1], reverse=True):
+${"%20s $%d" % (u, v)}
+% endfor
