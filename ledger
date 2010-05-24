@@ -868,3 +868,7 @@
 2010-05-23 Payment
   Pool:Owed:lexrj  $-15
   Pool:Paid
+2010-05-23 Payment
+  Pool:Owed:oremanj  $-15
+  Fees:PayPal        $0.84
+  Pool:Paid
