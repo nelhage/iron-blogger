@@ -1,21 +1,22 @@
 Results for week beginning ${week_start.strftime("%F")}
 <h2>People who posted</h2>
-<ul>
+<dl>
 % for u in sorted(good, key=lambda u:u.username):
-<li><b>${u.username}:</b>
+<dt><span class="user">${u.username}:</span></dt>
+<dd>
   <ul>
  % for p in u.weeks[week]:
    <li><a href="${p['url']}">${p['title'] or "[untitled post]"}</a></li>
  % endfor
   </ul>
-</li>
+</dd>
 % endfor
-</ul>
+</dl>
 
 <h2>People who failed to post</h2>
 <ul>
 % for u in sorted(lame, key=lambda u:u.username):
-<li><b>${u.username}</b></li>
+<li class="user">${u.username}</li>
 % endfor
 </ul>
 
@@ -23,7 +24,7 @@ Results for week beginning ${week_start.strftime("%F")}
 <h2>People who have not yet started</h2>
 <ul>
 % for u in sorted(skip, key=lambda u:u.username):
-  <li><b>${u.username}</b></li>
+  <li class="user">${u.username}</li>
 % endfor
 </ul>
 % endif
@@ -36,8 +37,19 @@ Results for week beginning ${week_start.strftime("%F")}
 </table>
 
 <h2>Debts:</h2>
-<table>
+<% i = 0 %>
+<table class="debts">
 % for (u, v) in sorted(debts, key=lambda p:p[1], reverse=True):
-<tr><td>${u}</td> <td>${v}</td></tr>
+% if i % 3 == 0:
+<tr>\
+% endif
+<% i += 1 %>\
+<td class="user">${u}</td> <td class="money">$${v}</td>\
+% if i % 3 == 0:
+</tr>
+%endif
 % endfor
+% if i % 3 != 0:
+</tr>
+%endif
 </table>
