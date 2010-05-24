@@ -879,3 +879,7 @@
 2010-05-23 Payment
   Pool:Owed:nelhage  $-5
   Pool:Paid
+2010-05-23 Payment
+  Pool:Owed:ismith  $-30
+  Fees:PayPal       $1.17
+  Pool:Paid
