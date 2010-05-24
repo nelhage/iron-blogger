@@ -870,5 +870,9 @@
   Pool:Paid
 2010-05-23 Payment
   Pool:Owed:oremanj  $-15
-  Fees:PayPal        $0.84
+  Fees:PayPal        $0.74
+  Pool:Paid
+2010-05-23 Payment
+  Pool:Owed:fawkes  $-15
+  Fees:PayPal        $0.74
   Pool:Paid
