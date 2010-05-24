@@ -48,10 +48,16 @@ def parse_feeds(weeks, uri):
         if post['url'] not in [p['url'] for p in weeks[wn]]:
             weeks[wn].append(post)
 
-for (username, u) in users.items():
-    weeks = log.setdefault(username, [])
-    for l in u['links']:
-        parse_feeds(weeks, l[2])
+if len(sys.argv) > 1:
+    for username in sys.argv[1:]:
+        weeks = log.setdefault(username, [])
+        for l in users[username]['links']:
+            parse_feeds(weeks, l[2])
+else:
+    for (username, u) in users.items():
+        weeks = log.setdefault(username, [])
+        for l in u['links']:
+            parse_feeds(weeks, l[2])
 
 with open('out/report.yml', 'w') as f:
     yaml.safe_dump(log, f)
