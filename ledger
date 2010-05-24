@@ -883,3 +883,9 @@
   Pool:Owed:ismith  $-30
   Fees:PayPal       $1.17
   Pool:Paid
+2010-05-23 Payment
+  Pool:Owed:broder  $-20
+  Pool:Paid
+2010-05-23 Payment
+  Pool:Owed:spang  $-20
+  Pool:Paid
