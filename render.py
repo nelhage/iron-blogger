@@ -71,7 +71,7 @@ def render_template(path, week=None):
                               '-n', 'balance', acct],
                              stdout=subprocess.PIPE)
         (out, _) = p.communicate()
-        return int(out.split()[0][1:])
+        return float(out.split()[0][1:])
 
     p = subprocess.Popen(['ledger', '-f', os.path.join(HERE,'ledger'),
                           '-n', 'balance', 'Pool:Owed:'],
@@ -82,7 +82,7 @@ def render_template(path, week=None):
         if not line: continue
         (val, acct) = line.split()
         user = acct[len("Pool:Owed:"):]
-        val  = int(val[len("$"):])
+        val  = float(val[len("$"):])
         debts.append((user, val))
 
     return Template(filename=path, output_encoding='utf-8').render(
