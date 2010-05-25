@@ -911,3 +911,13 @@
 2010-05-24 Week 21
   User:tibbetts    $-5
   Pool:Owed:tibbetts
+
+2010-05-24 Payment
+  Pool:Owed:quentin  $-20
+  Pool:Paid
+2010-05-24 Payment
+  Pool:Owed:geofft  $-40
+  Pool:Paid
+2010-05-24 Payment
+  Pool:Owed:lizdenys  $-5
+  Pool:Paid
