@@ -921,3 +921,10 @@
 2010-05-24 Payment
   Pool:Owed:lizdenys  $-5
   Pool:Paid
+
+2010-05-25 Payment
+  Pool:Owed:price  $-30
+  Pool:Paid
+2010-05-25 Payment
+  Pool:Owed:keach  $-40
+  Pool:Paid
