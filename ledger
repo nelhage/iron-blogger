@@ -928,3 +928,8 @@
 2010-05-25 Payment
   Pool:Owed:keach  $-40
   Pool:Paid
+
+2010-05-31 Payment
+  Pool:Owed:phurst  $-25
+  Fees:PayPal       $1.03
+  Pool:Paid
