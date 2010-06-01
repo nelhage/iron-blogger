@@ -1,8 +1,8 @@
 adamf:
   links:
   - [The Simple Logic, 'http://www.thesimplelogic.com/', 'http://www.thesimplelogic.com/feed/']
-  start: 02/15/2010
   skip: [5/31/2010]
+  start: 02/15/2010
 adehnert:
   links:
   - [Alex Dehnert's Blog, 'http://www.dehnerts.com/~alex/meta/news/', 'http://www.dehnerts.com/~alex/meta/news/?format=rss-full']
@@ -21,17 +21,17 @@ broder:
   - ["\u03B8: The nerd's angle", 'http://ebroder.net/', 'http://ebroder.net/feed/atom/']
   start: 12/28
 cbayley:
+  end: 4/5/2010
   links:
   - [Clare Bayley, 'http://clarebayley.com/', 'http://clarebayley.com/?feed=rss2']
   skip: [3/22/2010]
   start: 12/28
-  end:  4/5/2010
 ccpost:
+  end: 5/10/2010
   links:
   - [Chrispy, 'http://ccpost.scripts.mit.edu/blog/', 'http://ccpost.scripts.mit.edu/blog/?feed=rss2']
-  start: 12/28
   skip: [4/5/2010]
-  end:  5/10/2010
+  start: 12/28
 cristen:
   end: 02/15/2010
   links:
@@ -55,6 +55,7 @@ fawkes:
   - [Fawkes News, 'http://fawkes.mit.edu/', 'http://fawkes.mit.edu/blog/feed/']
   start: 12/28
 fyrrwulf:
+  end: '2010-05-31'
   links:
   - [Mad Engineering at its Finest, 'http://codydaniel.wordpress.com', 'http://codydaniel.wordpress.com/feed/']
   start: 12/21
@@ -72,11 +73,11 @@ gjlohman:
     'http://reviewsrantsandwritings.blogspot.com/feeds/posts/default']
   start: 03/29/2010
 havasi:
+  end: 5/10/2010
   links:
   - [Common Sense Computing Initiative, 'http://csc.media.mit.edu/blog/havasi', 'http://csc.media.mit.edu/blog/1/feed']
   skip: [3/8/2010]
   start: 12/28
-  end:  5/10/2010
 ianyh:
   end: 2/8/2010
   links:
@@ -112,10 +113,10 @@ kdrinkwa:
   - [The Dendritic Arbor, 'http://dendritic-arbor.blogspot.com', 'http://dendritic-arbor.blogspot.com/feeds/posts/default']
   start: 12/28
 keach:
+  end: 3/29/2010
   links:
   - [Cheesegrating 101, 'http://keach.scripts.mit.edu/blog/', 'http://keach.scripts.mit.edu/blog/?feed=rss2']
   start: 12/28
-  end: 3/29/2010
 kevinr:
   links:
   - [Free Dissociation, 'http://free-dissociation.com/blog/', 'http://free-dissociation.com/blog/atom.xml']
@@ -126,6 +127,7 @@ kyoki:
   - [The World's a Stage, 'http://kyoki.scripts.mit.edu/blog/', 'http://kyoki.scripts.mit.edu/blog/?feed=rss2']
   start: 12/28
 laura47:
+  end: '2010-05-31'
   links:
   - [LAURA, 'http://lauraboylan.blogspot.com/', 'http://lauraboylan.blogspot.com/feeds/posts/default']
   start: 12/21
@@ -140,8 +142,8 @@ lizdenys:
 nelhage:
   links:
   - [Made of Bugs, 'http://blog.nelhage.com', 'http://blog.nelhage.com/feed']
-  start: 12/21
   skip: [4/12/2010]
+  start: 12/21
 oremanj:
   links:
   - [Iterative Refinement, 'http://oremanj.scripts.mit.edu/blog', 'http://oremanj.scripts.mit.edu/blog/feed/']
@@ -160,11 +162,11 @@ quentin:
   - [scripts.mit.edu, 'http://scripts.mit.edu/news/?author=quentin+', 'http://scripts.mit.edu/rss/?author=quentin']
   start: 12/21
 seborn:
+  end: 4/5/2010
   links:
   - [Developmental Appropriation, 'http://developmental-appropriation.blogspot.com/',
     'http://developmental-appropriation.blogspot.com/feeds/posts/default']
   start: 12/28
-  end: 4/5/2010
 spang:
   links:
   - [blog.spang.cc, 'http://blog.spang.cc/', 'http://blog.spang.cc/index.atom']
@@ -175,10 +177,10 @@ tibbetts:
   - [Hyperextended Metaphor, 'http://innocuous.org/', 'http://innocuous.org/feed/']
   start: 12/21
 vinayak:
+  end: 3/29/2010
   links:
   - [Storytime, 'http://pseudovirtualanecdotes.blogspot.com/', 'http://pseudovirtualanecdotes.blogspot.com/feeds/posts/default']
   start: 12/28
-  end: 3/29/2010
 wings:
   links:
   - [PiPER, 'http://wings.scripts.mit.edu/blog/', 'http://wings.scripts.mit.edu/blog/feed/']
