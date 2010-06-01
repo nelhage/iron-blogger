@@ -20,6 +20,15 @@ Results for week beginning ${week_start.strftime("%F")}
 % endfor
 </ul>
 
+% if punt:
+<h2>People punted for excessive outstanding balances:</h2>
+<ul>
+% for u in sorted(punt):
+<li class="user">${u}</li>
+% endfor
+</ul>
+% endif
+
 % if skip:
 <h2>People who have not yet started</h2>
 <ul>

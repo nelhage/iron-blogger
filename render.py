@@ -33,7 +33,7 @@ def get_debts():
         debts.append((user, val))
     return debts
 
-def render_template(path, week=None):
+def render_template(path, week=None, **kwargs):
     with open('out/report.yml') as r:
         report = yaml.safe_load(r)
 
@@ -93,7 +93,7 @@ def render_template(path, week=None):
         week=week, week_start=week_start,week_end=week_end,
         good=good, lame=lame, skip=skip, userlist=userlist,
         pool=get_balance('Pool'), paid=get_balance('Pool:Paid'),
-        debts=debts)
+        debts=debts, **kwargs)
 
 if __name__ == '__main__':
     if len(sys.argv) < 2:
