@@ -986,3 +986,8 @@
 2010-05-31 Punt
   Pool:Owed:seborn  $-35.0
   User:seborn
+
+2010-06-02 Payment
+  Pool:Owed:jhamrick  $-10
+  Fees:PayPal  $0.59
+  Pool:Paid
