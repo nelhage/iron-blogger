@@ -7,6 +7,7 @@ adehnert:
   links:
   - [Alex Dehnert's Blog, 'http://www.dehnerts.com/~alex/meta/news/', 'http://www.dehnerts.com/~alex/meta/news/?format=rss-full']
   start: 12/21
+  skip: [[5/31/2010, 8/16/2010]]
 afarrell:
   end: 02/01/2010
   links:
@@ -41,11 +42,13 @@ cslink:
   links:
   - [cslink, 'http://cslink.scripts.mit.edu/blog/', 'http://cslink.scripts.mit.edu/blog/?feed=rss2']
   start: 12/28
+  skip: [[5/31/2010, 9/6/2010]]
 davidben:
   links:
   - [Apparently this installer wants a title, 'http://davidben.scripts.mit.edu/blog/',
     'http://davidben.scripts.mit.edu/blog/feed/']
   start: 02/15/2010
+  skip: [[5/31/2010, 8/30/2010]]
 ezyang:
   links:
   - [Inside 245s, 'http://ezyang.scripts.mit.edu/blog/', 'http://ezyang.scripts.mit.edu/blog/feed/atom/']
@@ -102,7 +105,7 @@ kaduk:
 kasittig:
   links:
   - [Wuthering Snow Mooncrash, 'http://kasittig.scripts.mit.edu/blog/', 'http://kasittig.scripts.mit.edu/blog/?feed=rss2']
-  skip: [3/15/2010]
+  skip: [3/15/2010,  [5/31/2010, 8/23/2010]]
   start: 12/21
 kcr:
   links:
@@ -186,6 +189,7 @@ wings:
   - [PiPER, 'http://wings.scripts.mit.edu/blog/', 'http://wings.scripts.mit.edu/blog/feed/']
   - [panscience, 'http://wings.mit.edu/blog/', 'http://wings.mit.edu/blog/feed/']
   start: 12/21
+  skip: [[5/31/2010, 9/6/2010]]
 xavid:
   links:
   - [Fireflies Sing, 'http://fireflies.xavid.us/', 'http://fireflies.xavid.us/feed/atom/']

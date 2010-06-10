@@ -33,6 +33,27 @@ def get_debts():
         debts.append((user, val))
     return debts
 
+def to_week_num(date):
+    return (parse(date, default=START) - START).days / 7
+
+def parse_skip(rec):
+    spec = rec.get('skip', [])
+    out = []
+    for s in spec:
+        if isinstance(s, list):
+            out.append(map(to_week_num, s))
+        else:
+            out.append(to_week_num(s))
+    return out
+
+def should_skip(skips, week):
+    for e in skips:
+        if e == week:
+            return True
+        if isinstance(e, list) and e[0] <= week and e[1] > week:
+            return True
+    return False
+
 def render_template(path, week=None, **kwargs):
     with open('out/report.yml') as r:
         report = yaml.safe_load(r)
@@ -62,8 +83,7 @@ def render_template(path, week=None, **kwargs):
         u.links = rec['links']
         u.start = rec['start']
         u.end   = rec.get('end')
-        u.skip  = [(parse(x, default=START) - START).days / 7
-                   for x in rec.get('skip', [])]
+        u.skip  = parse_skip(rec)
         u.weeks = report.get(un, [])
 
         userlist.append(u)
@@ -78,7 +98,7 @@ def render_template(path, week=None, **kwargs):
         if u.end and parse(u.end, default=START) <= week_start:
             continue
 
-        if week in u.skip:
+        if should_skip(u.skip, week):
             pass
         elif user_start > week_start:
             skip.append(u)
