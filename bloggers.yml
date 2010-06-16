@@ -9,7 +9,7 @@ adehnert:
   start: 12/21
   skip: [[5/31/2010, 8/16/2010]]
 afarrell:
-  end: 02/01/2010
+  skip: [[02/01/2010, 06/07/2010]]
   links:
   - ['10,000 Hours', 'http://afarrell.scripts.mit.edu/blog/', 'http://afarrell.scripts.mit.edu/blog/?feed=rss2']
   start: 12/28
@@ -130,7 +130,7 @@ kyoki:
   - [The World's a Stage, 'http://kyoki.scripts.mit.edu/blog/', 'http://kyoki.scripts.mit.edu/blog/?feed=rss2']
   start: 12/28
 laura47:
-  end: '2010-05-31'
+  skip: [['2010-05-31', 06/07/2010]]
   links:
   - [LAURA, 'http://lauraboylan.blogspot.com/', 'http://lauraboylan.blogspot.com/feeds/posts/default']
   start: 12/21

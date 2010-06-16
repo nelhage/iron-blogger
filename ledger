@@ -1022,3 +1022,12 @@
 2010-06-07 Week 23
   User:tibbetts    $-5
   Pool:Owed:tibbetts
+
+2010-05-31 Un-Punted
+  Pool:Owed:laura47  $40.0
+  User:laura47
+
+2010-06-13 Payment
+  Pool:Owed:laura47  $-30
+  Fees:PayPay  $1.17
+  Pool:Paid
