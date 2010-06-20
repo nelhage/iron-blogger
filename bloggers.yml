@@ -90,6 +90,7 @@ ismith:
   links:
   - [snarkbot@mit.edu, 'http://ismith.scripts.mit.edu/snarkblog', 'http://ismith.scripts.mit.edu/feed']
   start: 12/28
+  end: 06/14/2010
 jhamrick:
   links:
   - [Artificial Awareness, 'http://jhamrick.mit.edu', 'http://jhamrick.mit.edu/feed/atom/']
