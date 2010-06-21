@@ -16,6 +16,7 @@ afarrell:
 austein:
   links:
   - ['Systems, Service, and Socializing', 'http://blogs.mit.edu/austein', 'http://blogs.mit.edu/CS/blogs/austein/atom.aspx']
+  - ['austein', 'http://austein.livejournal.com/', 'http://austein.livejournal.com/data/atom']
   start: 2/8/2010
 broder:
   links:
