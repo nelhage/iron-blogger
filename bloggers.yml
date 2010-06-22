@@ -6,17 +6,19 @@ adamf:
 adehnert:
   links:
   - [Alex Dehnert's Blog, 'http://www.dehnerts.com/~alex/meta/news/', 'http://www.dehnerts.com/~alex/meta/news/?format=rss-full']
+  skip:
+  - [5/31/2010, 8/16/2010]
   start: 12/21
-  skip: [[5/31/2010, 8/16/2010]]
 afarrell:
-  skip: [[02/01/2010, 06/07/2010]]
   links:
   - ['10,000 Hours', 'http://afarrell.scripts.mit.edu/blog/', 'http://afarrell.scripts.mit.edu/blog/?feed=rss2']
+  skip:
+  - [02/01/2010, 06/07/2010]
   start: 12/28
 austein:
   links:
   - ['Systems, Service, and Socializing', 'http://blogs.mit.edu/austein', 'http://blogs.mit.edu/CS/blogs/austein/atom.aspx']
-  - ['austein', 'http://austein.livejournal.com/', 'http://austein.livejournal.com/data/atom']
+  - [austein, 'http://austein.livejournal.com/', 'http://austein.livejournal.com/data/atom']
   start: 2/8/2010
 broder:
   links:
@@ -42,14 +44,16 @@ cristen:
 cslink:
   links:
   - [cslink, 'http://cslink.scripts.mit.edu/blog/', 'http://cslink.scripts.mit.edu/blog/?feed=rss2']
+  skip:
+  - [5/31/2010, 9/6/2010]
   start: 12/28
-  skip: [[5/31/2010, 9/6/2010]]
 davidben:
   links:
   - [Apparently this installer wants a title, 'http://davidben.scripts.mit.edu/blog/',
     'http://davidben.scripts.mit.edu/blog/feed/']
+  skip:
+  - [5/31/2010, 8/30/2010]
   start: 02/15/2010
-  skip: [[5/31/2010, 8/30/2010]]
 ezyang:
   links:
   - [Inside 245s, 'http://ezyang.scripts.mit.edu/blog/', 'http://ezyang.scripts.mit.edu/blog/feed/atom/']
@@ -88,10 +92,10 @@ ianyh:
   - [Bias and Sandwiches, 'http://lucien.mit.edu/blog/', 'http://lucien.mit.edu/blog/?feed=atom']
   start: 12/21
 ismith:
+  end: 06/14/2010
   links:
   - [snarkbot@mit.edu, 'http://ismith.scripts.mit.edu/snarkblog', 'http://ismith.scripts.mit.edu/feed']
   start: 12/28
-  end: 06/14/2010
 jhamrick:
   links:
   - [Artificial Awareness, 'http://jhamrick.mit.edu', 'http://jhamrick.mit.edu/feed/atom/']
@@ -107,7 +111,9 @@ kaduk:
 kasittig:
   links:
   - [Wuthering Snow Mooncrash, 'http://kasittig.scripts.mit.edu/blog/', 'http://kasittig.scripts.mit.edu/blog/?feed=rss2']
-  skip: [3/15/2010,  [5/31/2010, 8/23/2010]]
+  skip:
+  - 3/15/2010
+  - [5/31/2010, 8/23/2010]
   start: 12/21
 kcr:
   links:
@@ -132,9 +138,10 @@ kyoki:
   - [The World's a Stage, 'http://kyoki.scripts.mit.edu/blog/', 'http://kyoki.scripts.mit.edu/blog/?feed=rss2']
   start: 12/28
 laura47:
-  skip: [['2010-05-31', 06/07/2010]]
   links:
   - [LAURA, 'http://lauraboylan.blogspot.com/', 'http://lauraboylan.blogspot.com/feeds/posts/default']
+  skip:
+  - ['2010-05-31', 06/07/2010]
   start: 12/21
 lexrj:
   links:
@@ -162,6 +169,7 @@ price:
   - [Greg Price's Blog, 'http://price.mit.edu/blog', 'http://price.mit.edu/blog/feed/']
   start: 12/21
 quentin:
+  end: '2010-06-21'
   links:
   - [QLJ, 'http://coolerq.livejournal.com/', 'http://coolerq.livejournal.com/data/atom']
   - [scripts.mit.edu, 'http://scripts.mit.edu/news/?author=quentin+', 'http://scripts.mit.edu/rss/?author=quentin']
@@ -190,8 +198,9 @@ wings:
   links:
   - [PiPER, 'http://wings.scripts.mit.edu/blog/', 'http://wings.scripts.mit.edu/blog/feed/']
   - [panscience, 'http://wings.mit.edu/blog/', 'http://wings.mit.edu/blog/feed/']
+  skip:
+  - [5/31/2010, 9/6/2010]
   start: 12/21
-  skip: [[5/31/2010, 9/6/2010]]
 xavid:
   links:
   - [Fireflies Sing, 'http://fireflies.xavid.us/', 'http://fireflies.xavid.us/feed/atom/']
