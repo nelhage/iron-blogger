@@ -1101,3 +1101,8 @@
 2010-06-21 Punt
   Pool:Owed:quentin  $-30.0
   User:quentin
+
+2010-06-22 Payment
+  Pool:Owed:kdrinkwa  $-10
+  Fees:PayPal  $0.59
+  Pool:Paid
