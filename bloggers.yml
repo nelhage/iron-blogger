@@ -151,6 +151,10 @@ lizdenys:
   links:
   - [Playing with Negative Space, 'http://negativespace.mit.edu', 'http://lizdenys.scripts.mit.edu/blog/feed/']
   start: 12/28
+mako:
+  links:
+  - [copyrighteous, 'http://mako.cc/copyrighteous/', 'http://mako.cc/copyrighteous/?flav=atom']
+  start: 6/21/2010
 nelhage:
   links:
   - [Made of Bugs, 'http://blog.nelhage.com', 'http://blog.nelhage.com/feed']
