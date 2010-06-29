@@ -21,6 +21,7 @@ austein:
   - [austein, 'http://austein.livejournal.com/', 'http://austein.livejournal.com/data/atom']
   start: 2/8/2010
 broder:
+  end: '2010-06-28'
   links:
   - ["\u03B8: The nerd's angle", 'http://ebroder.net/', 'http://ebroder.net/feed/atom/']
   start: 12/28
