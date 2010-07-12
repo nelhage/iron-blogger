@@ -1219,3 +1219,7 @@
 2010-07-12 Week 28
   User:price    $-5
   Pool:Owed:price
+
+2010-07-12 Punt
+  Pool:Owed:phurst  $-30.0
+  User:phurst
