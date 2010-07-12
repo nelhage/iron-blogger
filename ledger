@@ -1183,3 +1183,11 @@
 2010-07-05 Week 27
   User:tibbetts    $-5
   Pool:Owed:tibbetts
+
+
+2010-07-09 Payment
+  Pool:Owed:kcr  $-10
+  Pool:Paid
+2010-07-09 Payment
+  Pool:Owed:adamf  $-10
+  Pool:Paid
