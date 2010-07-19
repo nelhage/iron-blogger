@@ -1223,3 +1223,8 @@
 2010-07-12 Punt
   Pool:Owed:phurst  $-30.0
   User:phurst
+
+2010-07-19 Payment
+  Pool:Owed:fawkes  $-25.00
+  Fees:PayPal  $1.03
+  Pool:Paid
