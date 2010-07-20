@@ -1251,3 +1251,7 @@
 2010-07-19 Week 29
   User:price    $-5
   Pool:Owed:price
+
+2010-07-20 Punt
+  Pool:Owed:price  $-30.0
+  User:price

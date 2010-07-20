@@ -171,6 +171,7 @@ phurst:
   - [Amateur Topologist, 'http://www.amateurtopologist.com/', 'http://www.amateurtopologist.com/feed/']
   start: 12/28
 price:
+  end: '2010-07-20'
   links:
   - [Greg Price's Blog, 'http://price.mit.edu/blog', 'http://price.mit.edu/blog/feed/']
   start: 12/21
