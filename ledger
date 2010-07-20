@@ -1232,3 +1232,22 @@
 2010-07-19 Payment
   Pool:Owed:lexrj  $-20.00
   Pool:Paid
+
+2010-07-19 Week 29
+  User:fawkes    $-5
+  Pool:Owed:fawkes
+2010-07-19 Week 29
+  User:jhamrick    $-5
+  Pool:Owed:jhamrick
+2010-07-19 Week 29
+  User:lexrj    $-5
+  Pool:Owed:lexrj
+2010-07-19 Week 29
+  User:mako    $-5
+  Pool:Owed:mako
+2010-07-19 Week 29
+  User:oremanj    $-5
+  Pool:Owed:oremanj
+2010-07-19 Week 29
+  User:price    $-5
+  Pool:Owed:price
