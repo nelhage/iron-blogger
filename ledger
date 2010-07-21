@@ -1255,3 +1255,10 @@
 2010-07-20 Punt
   Pool:Owed:price  $-30.0
   User:price
+
+2010-07-20 Un-Punt
+  Pool:Owed:price  $30.0
+  User:price
+2010-07-20 Payment
+  Pool:Owed:price  $-30.0
+  Pool:Paid
