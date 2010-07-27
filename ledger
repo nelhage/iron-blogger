@@ -1318,3 +1318,7 @@
 2010-07-26 Week 30
   User:spang    $-5
   Pool:Owed:spang
+
+2010-07-22 Payment
+  Pool:Owed:gdb  $-15.0
+  Pool:Paid
