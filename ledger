@@ -1262,3 +1262,21 @@
 2010-07-20 Payment
   Pool:Owed:price  $-30.0
   Pool:Paid
+
+2010-07-24 Payment
+  Pool:Owed:gjlohman  $-20.0
+  Pool:Paid
+
+2010-07-25 Payment
+  Pool:Owed:adamf  $-5.0
+  Pool:Paid
+2010-07-25 Payment
+  Pool:Owed:geofft  $-20.0
+  Pool:Paid
+2010-07-25 Payment
+  Pool:Owed:kevinr  $-10.0
+  Pool:Paid
+2010-07-26 Payment
+  Pool:Owed:jhamrick  $-30.0
+  Fees:PayPal  $1.17
+  Pool:Paid
