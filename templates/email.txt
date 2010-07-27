@@ -3,7 +3,7 @@ To: iron-blogger@mit.edu
 
 SLACKERS: ${", ".join(sorted([u.username for u in lame]))}
 % if punt:
-PUNTED for balance greater than $30: ${", ".join(sorted(punt))}
+PUNTED for balance ≥$30: ${", ".join(sorted(punt))}
 % endif
 
 People who posted:
