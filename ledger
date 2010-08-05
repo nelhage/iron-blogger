@@ -1357,3 +1357,7 @@
 2010-08-04 Punt
   Pool:Owed:tibbetts  $-30.0
   User:tibbetts
+
+2010-09-30 Payment
+  Pool:Owed:lizdenys  $-5.0
+  Pool:Paid
