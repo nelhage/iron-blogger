@@ -1,3 +1,4 @@
+## -*- coding: utf-8 -*-
 Subject: IRON BLOGGER results for the week beginning ${week_start.strftime("%F")}
 To: iron-blogger@mit.edu
 

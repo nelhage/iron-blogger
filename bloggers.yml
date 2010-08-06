@@ -191,7 +191,6 @@ spang:
   - [blog.spang.cc, 'http://blog.spang.cc/', 'http://blog.spang.cc/index.atom']
   start: 12/28
 tibbetts:
-  end: '2010-08-04'
   links:
   - [Streambase, 'http://streambase.typepad.com/', 'http://pipes.yahoo.com/pipes/pipe.run?_id=816790f9214498e43f3c9abbcc9060a2&_render=rss']
   - [Hyperextended Metaphor, 'http://innocuous.org/', 'http://innocuous.org/feed/']

@@ -1361,3 +1361,8 @@
 2010-09-30 Payment
   Pool:Owed:lizdenys  $-5.0
   Pool:Paid
+
+2010-08-04 Payment
+  Pool:Owed:tibbetts  $-30.0
+  Fees:PayPal  $1.17
+  Pool:Paid
