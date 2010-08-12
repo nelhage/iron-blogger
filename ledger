@@ -1395,3 +1395,24 @@
 2010-08-09 Punt
   Pool:Owed:afarrell  $-30.0
   User:afarrell
+
+2010-08-04 un-Punt
+  Pool:Owed:tibbetts  $30.0
+  User:tibbetts
+
+
+2010-08-11 Payment
+  Pool:Owed:zhangc  $-5.0
+  Pool:Paid
+
+2010-08-11 Payment
+  Pool:Owed:kcr  $-5.0
+  Pool:Paid
+
+2010-08-11 Payment
+  Pool:Owed:kdrinkwa  $-5.0
+  Pool:Paid
+
+2010-08-11 Payment
+  Pool:Owed:nelhage  $-15.0
+  Pool:Paid
