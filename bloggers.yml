@@ -61,6 +61,7 @@ ezyang:
   - [Inside 245s, 'http://ezyang.scripts.mit.edu/blog/', 'http://ezyang.scripts.mit.edu/blog/feed/atom/']
   start: 12/28
 fawkes:
+  end: '2010-08-23'
   links:
   - [Fawkes News, 'http://fawkes.mit.edu/', 'http://fawkes.mit.edu/blog/feed/']
   start: 12/28
@@ -146,6 +147,7 @@ laura47:
   - ['2010-05-31', 06/07/2010]
   start: 12/21
 lexrj:
+  end: 8/9/2010
   links:
   - ['Mode: Lexcellent', 'http://lexrj.scripts.mit.edu/lexcellence/', 'http://lexrj.scripts.mit.edu/lexcellence/?feed=rss2']
   start: 12/28
