@@ -112,6 +112,7 @@ kaduk:
   - [Comity of Errors, 'http://kaduk.org/bjk/blog/', 'http://kaduk.org/bjk/blog/feed/']
   start: 12/28
 kasittig:
+  end: '2010-08-30'
   links:
   - [Wuthering Snow Mooncrash, 'http://kasittig.scripts.mit.edu/blog/', 'http://kasittig.scripts.mit.edu/blog/?feed=rss2']
   skip:
@@ -190,6 +191,7 @@ seborn:
     'http://developmental-appropriation.blogspot.com/feeds/posts/default']
   start: 12/28
 spang:
+  end: '2010-08-30'
   links:
   - [blog.spang.cc, 'http://blog.spang.cc/', 'http://blog.spang.cc/index.atom']
   start: 12/28
