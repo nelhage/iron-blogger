@@ -1503,3 +1503,8 @@
 2010-08-30 Punt
   Pool:Owed:spang  $-30.0
   User:spang
+
+2010-08-30 Payment
+  Pool:Owed:tibbetts  $-20.0
+  Fees:PayPal  $0.88
+  Pool:Paid
