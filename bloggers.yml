@@ -71,15 +71,16 @@ fyrrwulf:
   - [Mad Engineering at its Finest, 'http://codydaniel.wordpress.com', 'http://codydaniel.wordpress.com/feed/']
   start: 12/21
 gdb:
+  end: 9/6/2010
   links:
   - ['[insert title here]', 'http://blog.gregbrockman.com/', 'http://blog.gregbrockman.com/feed/']
   start: 2/8/2010
-  end: 9/6/2010
 geofft:
   links:
   - [syskblogd, 'http://geofft.mit.edu/blog/', 'http://geofft.mit.edu/blog/feed']
   start: 12/21
 gjlohman:
+  end: '2010-09-13'
   links:
   - ['Reviews, Rants and Writings', 'http://reviewsrantsandwritings.blogspot.com/',
     'http://reviewsrantsandwritings.blogspot.com/feeds/posts/default']
@@ -167,6 +168,7 @@ nelhage:
   skip: [4/12/2010]
   start: 12/21
 oremanj:
+  end: '2010-09-13'
   links:
   - [Iterative Refinement, 'http://oremanj.scripts.mit.edu/blog', 'http://oremanj.scripts.mit.edu/blog/feed/']
   start: 2/8/2010
