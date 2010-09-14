@@ -3,6 +3,7 @@ adamf:
   - [The Simple Logic, 'http://www.thesimplelogic.com/', 'http://www.thesimplelogic.com/feed/']
   skip: [5/31/2010]
   start: 02/15/2010
+  end: 09/13/2010
 adehnert:
   links:
   - [Alex Dehnert's Blog, 'http://www.dehnerts.com/~alex/meta/news/', 'http://www.dehnerts.com/~alex/meta/news/?format=rss-full']
