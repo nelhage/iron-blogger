@@ -1555,6 +1555,16 @@
   Pool:Paid        $-252
   Events
 
+2010-02-06 Payment
+  Pool:Owed:xavid  $-15
+  Pool:Paid
+2010-02-06 Payment
+  Pool:Owed:kaduk  $-5
+  Pool:Paid
+2010-02-06 Payment
+  Pool:Owed:gdb  $-5
+  Pool:Paid
+
 2010-09-13 Week 37
   User:adamf    $-5
   Pool:Owed:adamf
