@@ -169,7 +169,6 @@ nelhage:
   skip: [4/12/2010]
   start: 12/21
 oremanj:
-  end: '2010-09-13'
   links:
   - [Iterative Refinement, 'http://oremanj.scripts.mit.edu/blog', 'http://oremanj.scripts.mit.edu/blog/feed/']
   start: 2/8/2010

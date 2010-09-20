@@ -1509,6 +1509,11 @@
   Fees:PayPal  $0.88
   Pool:Paid
 
+2010-08-30 Payment
+  Pool:Owed:oremanj  $-20.0
+  Fees:PayPal  $0.88
+  Pool:Paid
+
 2010-0-08 Payment
   Pool:Owed:laura47  $-5.0
   Pool:Paid
@@ -1590,6 +1595,3 @@
 2010-09-13 Punt
   Pool:Owed:gjlohman  $-30.0
   User:gjlohman
-2010-09-13 Punt
-  Pool:Owed:oremanj  $-30.0
-  User:oremanj
