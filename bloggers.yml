@@ -161,6 +161,7 @@ lizdenys:
   - [Playing with Negative Space, 'http://blog.lizdenys.com/', 'http://blog.lizdenys.com/feed/atom']
   start: 12/28
 mako:
+  end: '2010-09-28'
   links:
   - [copyrighteous, 'http://mako.cc/copyrighteous/', 'http://mako.cc/copyrighteous/?flav=atom']
   start: 6/21/2010
