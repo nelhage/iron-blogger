@@ -78,6 +78,7 @@ gdb:
   - ['[insert title here]', 'http://blog.gregbrockman.com/', 'http://blog.gregbrockman.com/feed/']
   start: 2/8/2010
 geofft:
+  end: '2010-10-04'
   links:
   - [syskblogd, 'http://geofft.mit.edu/blog/', 'http://geofft.mit.edu/blog/feed']
   start: 12/21
@@ -178,6 +179,10 @@ phurst:
   links:
   - [Amateur Topologist, 'http://www.amateurtopologist.com/', 'http://www.amateurtopologist.com/feed/']
   start: 12/28
+preeya:
+  links:
+  - [Accidentally Insightful, 'http://accidentally-insightful.blogspot.com/', 'http://accidentally-insightful.blogspot.com/feeds/posts/default']
+  start: 9/27/2010
 price:
   end: '2010-09-08'
   links:
@@ -226,7 +231,3 @@ zhangc:
   links:
   - [Somatic Hypermutation, 'http://zhangc.scripts.mit.edu/shm/', 'http://zhangc.scripts.mit.edu/shm/feed/']
   start: 12/21
-preeya:
-  links:
-  - [Accidentally Insightful, 'http://accidentally-insightful.blogspot.com/', 'http://accidentally-insightful.blogspot.com/feeds/posts/default']
-  start: 9/27/2010
