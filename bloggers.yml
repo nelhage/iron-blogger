@@ -105,6 +105,7 @@ ismith:
   - [snarkbot@mit.edu, 'http://ismith.scripts.mit.edu/snarkblog', 'http://ismith.scripts.mit.edu/feed']
   start: 12/28
 jhamrick:
+  end: '2010-10-11'
   links:
   - [Artificial Awareness, 'http://jhamrick.mit.edu', 'http://jhamrick.mit.edu/feed/atom/']
   start: 12/21
@@ -171,6 +172,7 @@ nelhage:
   skip: [4/12/2010]
   start: 12/21
 oremanj:
+  end: '2010-10-11'
   links:
   - [Iterative Refinement, 'http://oremanj.scripts.mit.edu/blog', 'http://oremanj.scripts.mit.edu/blog/feed/']
   start: 2/8/2010
