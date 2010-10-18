@@ -1722,3 +1722,7 @@
 2010-10-11 Punt
   Pool:Owed:oremanj  $-30.0
   User:oremanj
+
+2010-01-25 Payment
+  Pool:Owed:nelhage  $-15
+  Pool:Paid
