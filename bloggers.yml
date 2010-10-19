@@ -148,6 +148,7 @@ kyoki:
   - [The World's a Stage, 'http://kyoki.scripts.mit.edu/blog/', 'http://kyoki.scripts.mit.edu/blog/?feed=rss2']
   start: 12/28
 laura47:
+  end: '2010-10-19'
   links:
   - [LAURA, 'http://lauraboylan.blogspot.com/', 'http://lauraboylan.blogspot.com/feeds/posts/default']
   skip:
